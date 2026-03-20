@@ -16,3 +16,6 @@ Content-Type: application/json
     "email": "victor@victor.com",
     "password": "123456"
 }
+###
+GET http://localhost:3000/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImNtbXo1bWx4YzAwMDBmMm4wYXd6YWJ1MXUiLCJlbWFpbCI6InZpY3RvckB2aWN0b3IuY29tIiwicm9sZSI6IkFETUlOIiwiaWF0IjoxNzc0MDI2NTk5LCJleHAiOjE3NzQwMzM3OTl9.Th__FToh7IeFvPza_RZUcDL1-HJF4_S3pU2TAWUj5d8

@@ -14,6 +14,8 @@ datasource db {
 }
 
 enum Roles {
+  MANAGER
+  PROGRAMMER
   ADMIN
   USER
 }
@@ -24,5 +26,5 @@ model User {
   name      String
   password  String
   cellphone String @unique
-  role      String @default("USER")
+  role      Roles  @default(USER)
 }
